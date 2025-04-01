@@ -1,0 +1,131 @@
+/*
+Theme Name: Indoor Sports
+Theme URI: https://www.buywpthemes.net/products/free-indoor-sports-academy-wordpress-theme/
+Author: Peccular
+Author URI: https://www.buywpthemes.net/
+Description: For all the Indoor Sports Academy owners, admins, and managers here’s news that will do good to your business. We’ve designed Indoor Sports Academy WordPress theme that we’d like you to see and decide  if you see yourself being a part of this online revolution! Sports Academy WordPress theme will serve you in a multiple of ways. When you go online by downloading and installing Sports Academy WordPress theme, you will be talk of the town because of the way we’ve crafted it. It will prove to be a great way to announce to the world that your academy is online and that people interested in joining or enrolling can have a basic discussion online. The theme enables you to share every important detail about your sports academy with your target audience, right from talking about yourself and how the academy came about, kinds of sports you offer in your academy. The theme comes with 100 percent conveniences and ease of maintenance. Even a person with no technical or coding background can download it without an iota of worry as to how s/he will be able to manage the theme. We have provided an easy to use dashboard with simple clickable buttons with quick, precise instructions that will help you change images, headers, update content, make new announcements, delete old information and images and replace them with new and so on. There are social media icons provided already that you simply have to link to your social media pages for visitors to connect with you, and help you build a community of your own. Sports Academy WordPress theme is responsive. Visitors can view it on mobile phone, laptop or any other device as the design falls seamless into place on all of them; ditto with browser as Sports Academy WordPress theme is all-browsers friendly. Sports Academy WordPress theme is the best way to create an impact on your online customers who may be on a lookout to join an indoor sports club simply for fitness or with a more serious intention of preparing for competition.   
+Version: 0.1.6
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: indoor-sports
+Slug: indoor-sports
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, grid-layout, portfolio, photography
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.waves {
+    position: absolute;
+    width: 100%;
+    height: 31vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+    bottom: 0;
+}
+.pl-0{padding-left:0;  }
+.m-rl{margin-right: 0;margin-left: 0}
+#slider-section{
+    position: relative;
+    overflow: hidden;
+    /*background: url(assets/images/sliderbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.footer-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    padding:4em 0 0em 0;
+    overflow: hidden;
+    background: url(assets/images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-area .f-oly{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0;
+}
+
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+}
+.recentcomments a {
+    display: inline-block !important;
+    padding-left: 18px !important;
+    margin: 0 !important;
+}
+
+.slider-img-overlay {
+    position: absolute;
+    left: 0;
+    right: 52.5%;
+    top: 0;
+    bottom: 0;
+    background: #161415;
+    opacity: 1;
+    clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
+}
+.slider-img-overlay-outer {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 1;
+    clip-path: polygon(0 0, 68% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 991px) {
+.slider-img-overlay-outer {
+    right: 35%;
+}
+.slider-img-overlay {
+    right: 38.5%;
+}
+
+}
