@@ -2,3 +2,4 @@
 [01-Apr-2025 21:10:53 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX221Assignment4/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
 [01-Apr-2025 21:29:51 UTC] PHP Warning:  Attempt to read property "title" on null in /workspaces/UX221Assignment4/.wordpress/wp-includes/class-wp-customize-widgets.php on line 923
 [01-Apr-2025 21:31:24 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX221Assignment4/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[01-Apr-2025 21:53:33 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /workspaces/UX221Assignment4/.wordpress/wp-admin/includes/class-theme-upgrader.php on line 160
